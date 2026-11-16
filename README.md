@@ -12,6 +12,11 @@ python -m pip install -e .
 
 Import `greet` from `greet_community`.
 
+```
+python -c "from greet_community import greet; print(greet('Hee'))"
+Hello, Hee!
+```
+
 ## Contribute
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
